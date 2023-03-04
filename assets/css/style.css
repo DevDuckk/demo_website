@@ -1,0 +1,166 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    font-family:'Franklin Gothic Medium',;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#header{
+    height: 66px;
+    background-color: #ffffff;
+    box-shadow: 10px 0 15px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+/*HEADER ICON BEGIN*/
+#header .search-btn{
+    float: right;
+    padding: 0 26px;
+    border-radius: 10px;
+}
+
+#header .search-icon{
+    line-height: 66px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+#header .search-btn:hover,
+#header .shopping-card-btn:hover{
+    color: whitesmoke;
+    background-color: pink;
+}
+
+#header .shopping-card-btn{
+    float: right;
+    padding: 0 26px;
+    border-radius: 10px;
+}
+
+#header .shopping-card-icon{
+    line-height: 66px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* HEADER ICON END */
+
+
+/* HEADER NAV BEGIN */
+#nav{
+    display: inline-block;
+}
+#nav, .subnav {
+    list-style: none;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-transform: uppercase;
+}
+#nav li a {
+    display: block;
+    text-decoration: none;
+    line-height: 66px;
+    padding: 0 24px;
+}
+#nav .nav-logo{
+    font-size: 12px;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+#nav > #logo:hover > a{
+    font-size: larger;
+    color: #f86fb8;
+    cursor: pointer;
+    /*background-color: ; */
+}
+#nav > .navli:hover > a,
+#nav .subnav li:hover a {
+    font-size: larger;
+    color: #f86fb8;
+    border-bottom: 3px solid #b1154a;
+    /*background-color: ; */
+}
+#nav .subnav{
+    display: none;
+    position: absolute; 
+    background-color: rgba(255, 255, 255, 0.5);
+    min-width: 160px;
+    /* box-shadow: 10px 0 15px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+} 
+
+#nav .subnav  li {
+    display: block;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* HEADER NAV END */
+
+#slide{
+    /* position: relative; */
+    margin-top: 46px;
+    padding-top:  50%;
+    background: url('/assets/img/undraw_web_shopping_re_owap.png') top center / cover no-repeat;
+    background-size: 60%;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#slide .text-content{
+    position: absolute;
+    bottom: 69px;
+    left: 50%;
+    color: #f86fb8;
+    transform: translateX(-50%);
+    text-align: center;
+}   
+
+#slide .text-heading{
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+
+
+/* #content{
+
+}
+
+#footer{
+
+} */
